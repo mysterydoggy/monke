@@ -241,7 +241,7 @@ int main()
 										{
 											cout << "invalid input " << endl; 	
 										}
-										} while (monkeyreact > 3 && monkeyreact < 1); 
+										} while (monkeyreact > 3 || monkeyreact < 1); 
 										
 
 				}
