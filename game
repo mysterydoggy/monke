@@ -1,6 +1,5 @@
 //Alejandro Guerra
-//Daniel Hemmerde
-//Alice Yu 
+
 
 
 
@@ -36,11 +35,11 @@ int main()
 		cout <<"   | |                                            | |\n"<< endl;
 
 		cout << "where would you like to be?" << endl;                                                //first interaction where player has options 
-			cout << "\t >> Press 1 for Monkey Time" << endl;									     //option 1
-			  cout << "\t >> Press 2 for Wyoming" << endl;										    //option 2
-			   cout << "\t >> Press 3 for Nothing lol" << endl;							           //option 3
-				  cout << "\t >> Press 4 for Death" << endl;									  //option 4
-					cout << "\t Please enter a whole number between 1 and 4" << endl;
+		cout << "\t >> Press 1 for Monkey Time" << endl;									     //option 1
+		cout << "\t >> Press 2 for Wyoming" << endl;										    //option 2
+		cout << "\t >> Press 3 for Nothing lol" << endl;							           //option 3
+		cout << "\t >> Press 4 for Death" << endl;									  //option 4
+		cout << "\t Please enter a whole number between 1 and 4" << endl;
 
 
 		cout << "\nEnter your choice: ";
@@ -50,27 +49,27 @@ int main()
 			cout << "\n ----------------------Chapter One: what the fuck is a charcoochie board---------------------- " << endl;
 
 			cout << "\n You've just regained consciousness and through the fog of confusion, you realize you're on a smuggler's boat, stuck in a jail cell, sailing towards an unknown destination" << endl;	//beginning of game
-			  cout << "*Ooh ooh ah ah AHHHHHHHHHHHHHHHHHHHHH beep boop*" << endl;
-			    cout << "*Cacophony of monkey noises*\n" << endl;
+			cout << "*Ooh ooh ah ah AHHHHHHHHHHHHHHHHHHHHH beep boop*" << endl;
+			cout << "*Cacophony of monkey noises*\n" << endl;
 			do{
 			      cout << "You have to find a way out of the jail cell so a perilous fate does not fall upon you, what do you do?" << endl;
-			        cout << "\t 1. Pick the shiny, golden key that's totally not suspicious from your pocket." << endl;
-			          cout << "\t 2. Sit and cry, \"Hello darkness my old friend.\"" << endl;
-			            cout << "\t 3. Attempt to tear apart the cage bars with your bare hands.\n" << endl;
-			cin >> monke;
+			      cout << "\t 1. Pick the shiny, golden key that's totally not suspicious from your pocket." << endl;
+			      cout << "\t 2. Sit and cry, \"Hello darkness my old friend.\"" << endl;
+			      cout << "\t 3. Attempt to tear apart the cage bars with your bare hands.\n" << endl;
+			      cin >> monke;
 
 	      
 				if (monke == 1)
 				{
 					cout << endl << "You place the shiny key in the lock of the cage and it opens up. Suddenly the key blows up and kills you. This was due to it being a lock activated key bomb. " << endl;   //option 1 
-					  cout << endl << "Game Over " << endl;
-					    cout << "\n" << endl;
+					cout << endl << "Game Over " << endl;
+					cout << "\n" << endl;
 				}
 				else if (monke == 2)
 				{
 					cout << "" << endl;
-					  cout << "option 2 " << endl;	                                                                                                            //option 2 
-					    cout << endl << "you sit and cry in your cage for hours upon hours. Eventually the boat comes to a stop and the monkeys that have placed you in the cage take you out and you become a slave to Hubert the II, who is a warlord orangutan that forces you to farm runescape accounts for eternity." << endl;
+					cout << "option 2 " << endl;	                                                                                                            //option 2 
+					cout << endl << "you sit and cry in your cage for hours upon hours. Eventually the boat comes to a stop and the monkeys that have placed you in the cage take you out and you become a slave to Hubert the II, who is a warlord orangutan that forces you to farm runescape accounts for eternity." << endl;
 				}
 				else if (monke == 3)
 				{
@@ -84,30 +83,30 @@ int main()
 							 		cout << "\t 2. Attack the monkeys with any item you can find." << endl;																	     								// option 1.2.2
 										cout << "\t 3. Throw Coconuts.\n" << endl; 																															   // option 1.2.3	
 										cin >> monkeyreact;
-				do{
-				if (monkeyreact == 1)
+			 do{
+				    if (monkeyreact == 1)
 					{
 						cout << endl;
-						  cout << "You stepped on a booby trap! You've fallen victim to the classic trap, the banana peel!" << endl;
-						    cout << "You are now dead." << endl;
-								    cout << endl << "Game Over.\n\n" << endl;
-						}
+						cout << "You stepped on a booby trap! You've fallen victim to the classic trap, the banana peel!" << endl;
+						cout << "You are now dead." << endl;
+						cout << endl << "Game Over.\n\n" << endl;
+					}
 					else if (monkeyreact == 2)
 					{
 						cout << endl;
-						  cout << "Whoa! You grab an electric baton with high voltage and lunge at the cyborg monkeys trying to ambush you." << endl;															//scenario 3 starts 
-						    cout << "You stun the monkeys ! You have some pretty deep cuts there buddy... you might get an infection, but at least you're alive...for now.\n" << endl;
-								print_divider();
-							  do{
-						      cout << "\t 1. Search for any medical supplies. " << endl;
-						        cout << "\t 2. Screw it. You gotta run. Dive off board with a leap of faith, into a duct-taped contraption." << endl;
-									cout << "\t 3. Try commandeering the ship.\n" << endl;
-											cin >> escapemonkey;
+						cout << "Whoa! You grab an electric baton with high voltage and lunge at the cyborg monkeys trying to ambush you." << endl;															//scenario 3 starts 
+						cout << "You stun the monkeys ! You have some pretty deep cuts there buddy... you might get an infection, but at least you're alive...for now.\n" << endl;
+						print_divider();
+					do{
+						    cout << "\t 1. Search for any medical supplies. " << endl;
+						    cout << "\t 2. Screw it. You gotta run. Dive off board with a leap of faith, into a duct-taped contraption." << endl;
+							cout << "\t 3. Try commandeering the ship.\n" << endl;
+							cin >> escapemonkey;
 												
-													if (escapemonkey == 1)																																	//correct answer in scenario 2
-													{
-														print_divider();
-														cout << endl;
+							if (escapemonkey == 1)																																	//correct answer in scenario 2
+							{
+								print_divider();
+								cout << endl;
 														cout << "You find an first aid bag and right next to it is an escape raft." << endl;
 														cout << "You hop into the raft and drop down into the sea, clutching the emergency aid kit next to your chest\n" << endl;
 														cout << "On second thought, the kit looks a bit suspicious" << endl;
@@ -298,7 +297,7 @@ int main()
 		
 	
 	cout << "Would you like to play again?" << endl;
-	  cout << "1. Yes" << endl;
+	 cout << "1. Yes" << endl;
 	    cout << "2. No" << endl;
 	cin >> replay;																										//loops player back to beginning once they die.
 	        cout << "\n" << endl;
